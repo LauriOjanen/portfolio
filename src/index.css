@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Inter:wght@300;400;500;600;700&family=Josefin+Sans&family=Ubuntu:ital,wght@1,500&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Ubuntu]
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
