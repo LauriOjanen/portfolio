@@ -1,6 +1,4 @@
 import React from 'react'
-import workImg from '../assets/workImg.jpeg'
-import realEstate from '../assets/realestate.jpg'
 import landing from '../assets/landing-pic.png'
 import portfolio from '../assets/portfolio-pic.png'
 import weather from '../assets/weather-pic.png'
