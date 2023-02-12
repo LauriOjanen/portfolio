@@ -1,6 +1,8 @@
 import React from 'react'
 import workImg from '../assets/workImg.jpeg'
 import realEstate from '../assets/realestate.jpg'
+import landing from '../assets/landing-pic.png'
+import portfolio from '../assets/portfolio-pic.png'
 
 const Work = () => {
   return (
@@ -31,7 +33,24 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${realEstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${portfolio})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='font-bold text-white tracking-wider'>
+                            <p className='text-2xl'>Portfolio</p>
+                            React + Tailwind CSS
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://lauriojanen.eu">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/LauriOjanen/portfolio">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${workImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
                             React JS Application
@@ -63,26 +82,11 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${realEstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-                <div style={{backgroundImage: `url(${workImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                <div style={{backgroundImage: `url(${landing})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100 p-10'>
+                        <span className='font-bold text-white tracking-wider'>
+                            <p className='text-2xl'>Landing Page</p>
+                            React + Vite + Tailwind CSS
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://lauriojanen.github.io/landing-page-react-vite/">
