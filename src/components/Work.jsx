@@ -5,6 +5,8 @@ import landing from '../assets/landing-pic.png'
 import portfolio from '../assets/portfolio-pic.png'
 import weather from '../assets/weather-pic.png'
 import kauppa from '../assets/kauppa.png'
+import rps from '../assets/rps.png'
+import todo from '../assets/todo.png'
 
 const Work = () => {
   return (
@@ -70,16 +72,17 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${workImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${rps})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                        <span className='font-bold text-white tracking-wider'>
+                            <p className='text-2xl'>Rock Paper Scissors</p>
+                            Javascript Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://lauriojanen.github.io/rock-paper-scissors/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/LauriOjanen/rock-paper-scissors">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
 
@@ -103,16 +106,17 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${realEstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${todo})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                        <span className='font-bold text-white tracking-wider'>
+                            <p className='text-2xl'>To-Do App</p>
+                            Javascript Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://lauriojanen.github.io/TODO/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/LauriOjanen/TODO">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
 
