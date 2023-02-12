@@ -16,7 +16,8 @@ const About = () => {
                     </div>
                     <div>
                         <p>
-                        Joku hieno esittelyteksti tähän tulee sitten myöhemmin. 
+                        I am a front-end developer with a passion for creating dynamic, user-friendly websites and applications. 
+                        My expertise lies in React, Javascript, HTML, CSS, and Wordpress, and I am always eager to learn and apply new technologies. 
                         </p>
                     </div>
                 </div>
